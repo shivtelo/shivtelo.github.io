@@ -1,7 +1,8 @@
-.navbar
+html {zoom: 100%;}
+	.navbar
 {
-	padding-top: 10px;
-	height: 70px;
+	padding-top: 1%;
+	height: 12%;
 }
 .navbar-brand{
 	padding-top: 0px;
@@ -12,12 +13,14 @@ body
 	background-color: #deefde;
 }
 #aboutme{
-	padding-top: 50px;
+	padding-top: 30vh;
+	padding-bottom: 15vh;
 	color: #000000;
 	background-color: #deefde;
 }
 #home{
-	padding-top: 80px;
+	padding-bottom: 20vh;
+	padding-top: 15vh;
 	background-color: #3498db;
 
 
@@ -26,28 +29,31 @@ body
 	background-color: #ff6666;
 }
 #hobbies{
-	padding-top: 50px;
+	padding-top: 20vh;
+	padding-bottom: 15vh;
 	background-color: #e67e22;
 }
+#skills{
+	padding-top: 20vh;
+	padding-bottom: 15vh;
+}
 .bahar{
-	font-size: 150%;
+
+	 font-size: 3vh;
 	color: #34495e;
 	text-align: center;
 	border-style: solid;
-	border-radius: 10px;
-	border-width: 10px;
+	border-radius: 2vh;
+	border-width: 2vh;
 	border-color: #CCCCCC;
 	align-content: center;
 	display: inline-block;
-	width: 60%;
-	height: 410px;
-
-
+	width: 130vh;
 }
 .anima{
 	display: inline-block;
-	width: 60%;
-	height: 360px;
+	/*width: 60%;*/
+	height: 56vh;
 	background-color: #ffffff;
 	transition: transform 300ms ease-in-out;
 	transform: rotate(-3deg);
@@ -58,8 +64,8 @@ body
  .midimg
  {
  	
- 	width: 240px;
- 	height: 340px;
+ 	/*width: 240px;*/
+ 	height: 52vh;
  	transition: transform 300ms ease-in-out;
  	transform: rotate(5deg);
  }
@@ -73,19 +79,24 @@ body
  } 
 .lft
  {
- 	width:60%;
+ 	width:80vh;
  	float: left;
  	text-align: left;
- 	padding-left: 60px;
- 	padding-top: 60px;
+ 	padding-left: 10vh;
+ 	padding-top: 10vh;
+ }
+ .fullft
+ {
+ 	float: left;
+ 	text-align: left;
+ 	padding-left: 10vh;
+ 	padding-top: 10vh;
+ 	padding-bottom: 5vh;
  }
  .brakes{
- 	height: 50px;
+ 	height: 30vh;
  }
 
- .bigbrakes{
- 	height: 100px;
- }
  .anima:on
  {
  	transform: rotate(50deg);
@@ -96,3 +107,4 @@ body
  .tmpelem{
  	border-color: #e67e22;
  }
+ 
