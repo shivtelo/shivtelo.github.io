@@ -2,194 +2,38 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="stylesheets/custom.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	
-</script>
-
-     
-    
-
- <script>
-    $(document).ready(function(){
-        
-        $(".nav li").click(function() {
-    $(".nav li").removeClass('active');
-    $(this).addClass('active');    
-		});
-      // Add smooth scrolling to all links
-      $("nav a").on('click', function(event) {
-
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-         event.preventDefault();
-
-          // Store hash
-          var hash = this.hash;
-
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function(){
-
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
-
-    });
-
-    </script>
-
 	<title>Shiv Kumar</title>
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-		<div class="container-fluid">
-		                <a class="navbar-brand" href="#">
-		                   	<!-- <img src="http://placehold.it/150x50/e74c3c/ffffff/?text=SHIV&textsize=15" alt="">-->
-							<img src="https://placeholdit.imgix.net/~text?txtsize=20&bg=e74c3c&txtclr=ffffff&txt=SHIV&w=150&h=50&txttrack=0" alt="">
-		                </a>
-		            
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-									<ul class="nav navbar-nav">
-										<li class="active"><a href="#home">Home</a></li>
-										<li><a href="#aboutme">About Me</a></li>
-										<li><a href="#hobbies">Hobbies</a></li>
-										<li><a href="#skills">Skills</a></li>
-										<li><a href="resume.pdf">Resume</a></li>
-										<li><a href="#contactme">Contact Me</a></li>
-									</ul>
-						</div>
-		</div>
-	</nav>
-	<div class="uparseniche" align="center">
-	
-	<div id="home">
-			<div  class="bahar anima">
-			<span class="lft">
-			<strong>Welcome</strong><br>
-			<p>I, Shiv Kumar, am a 3rd year Undergraduate Student at Department of Computer Science and Engineering in Maulana Azad National Institute of Technology, Bhopal.</p>
-	<br>
-			</span>
-			<span class="rht">
-			<img src="images/3.jpg" class="midimg">
-			</span>
-			</div>
-	</div>
-	
-
-<div id="aboutme">
-<div class="bahar anima">
-
-<span class="fullft">
-	<strong>About Me</strong>
-	<ul>
-	<li>
-	I was born and brought up in Bokaro Steel City, Jharkhand.
-	</li>
-	<li>
-	I also completed my Xth and Intermediate here.
-	</li>
-	</ul>
-	<strong> You'll find me as:</strong>
-	<br>
-	<ul>
-		<li>
-	A friend always eager to help, an enthusiastic learner.<br>
-	</li>
-		<li>
-			A person passionate about competitive proramming.
-	</li>
-	</span>
-
-<!--<span class="rht">
-<img src="images/4.jpg" class="midimg">
-</span>-->
-</div>
-</div>
-<div id="hobbies">
-<div class="bahar anima">
-
-<span class="lft">
-	<strong>Hobbies</strong><br>
-	
-	<p>In free time,I love reading novels(especially Agatha Christie), watching movies or anime.
-		I like playing football, chess.</p>
-	
-	<br>
-	<strong>
-	My favourite quote:
-	</strong>
-	 Enjoy every moment of life until the day you are dead.
-	</span>
-<span class="rht">
-<img src="images/4.jpg" class="midimg">
-</span>
-</div>
-</div>
-<div id="skills" style="background-color: #348900">
-<div class="bahar anima"  style="background-color: #deefde">
-<span class="fullft">
-	<strong>Skills and Co-curriculars</strong><br>
-	<p>
-		<ul>
-		<li>
-		Has worked with: C,C++,Python,Java SE,PHP
-		</li>
-		<li>
-		<a href="https://github.com/shivtelo/Courier-Management">Link</a> to my software engineering project.
-		</li>
-		<li>
-		Conducted C and Python workshops for freshmen in our college.
-		</li>
-		<li>
-		Organised Inter-NIT Codathon on hackerearth.
-		</li>
-		<li>
-		Currently enrolled in stanford machine learning program on coursera.
-		</li>
+	<span id="intro"></span>
+	<span class="blinking-cursor" id="bc1">|</span>
+	<br/>
+	<br/>
+	<div id="hobby" hidden></div>
+	<br/>
+	<div id="hobbies" hidden>
+		<ul style="display: table; margin: 0 auto;">
+			<li>I meet people&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+			<li>Explore places&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+			<li>Learn skills OR&nbsp;&nbsp;&nbsp;&nbsp;</li>
+			<li>Just sleep through.</li>
 		</ul>
-		</p></span>
-	<!--<span class="rht">
-	<img src="images/2.jpg" class="midimg"></span>-->
-</div>
-</div>
-<div style="background-color: #ff6666; padding-top: 20vh;">
-<div id="contactme" class="bahar anima" style="background-color: #deefde">
-<span>
+		<br/>
+		<br/>
+	</div>
 
-<img src="images/2.jpg" class="midimg" style="float: left;">
-
-</span>
-<span>
-<br>
- <strong>Contact me on</strong>
-	<div>
-		<br>
-		<p><a href="https://github.com/shivtelo"><img src="images/github.png" style="width: 6vh; height: 6vh;" > Github&nbsp;&nbsp;&nbsp; </a>
-				<br>
-				<br>
-				
-				<a href="mailto:shivtelo@gmail.com"><img src="images/gmail.ico" style="width: 6vh; height: 6vh;"> Gmail &nbsp; &nbsp; &nbsp;</a>	
-				<br>
-				<br>
-				<a href="https://www.linkedin.com/in/shiv-kumar-b51a42106/"><img src="images/linkedin.ico"  style="width: 6vh; height: 6vh;"> Linkedin &nbsp;&nbsp;</a>
-				<br>
-				<br>
-				<a href="https://facebook.com/shivtelo"><img src="images/fb-art.jpg"  style="width: 6vh; height: 6vh;"> Facebook </a>
-				</p>
-				<br>
+	<div style="text-align: center; margin-top: 5%;">	
+		<span id="connect" hidden></span>
+		<span class="blinking-cursor" id="bc2" hidden>|</span>
+		<br/>
+		<br/>
+		<div id="contact" hidden>
+		<a href="https://www.linkedin.com/in/shiv--kumar">LinkedIn</a> | <a href="mailto:shivtelo@gmail.com">Gmail</a> |	<a href="resume.pdf">Resume</a> | <a href="https://fb.me/shivtelo">Facebook</a>
 		</div>
-	</span>
-</div>
-</div>
-</div>
+	</div>
+<script src="javascripts/main.js"></script>
 </body>
 </html>
