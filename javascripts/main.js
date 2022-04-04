@@ -1,5 +1,3 @@
-console.log('This would be the main JS file.');
-
 (function($) {
     $.fn.writeText = function(content) {
         var contentArray = content.split(""),
@@ -9,7 +7,7 @@ console.log('This would be the main JS file.');
             if(current < contentArray.length) {
                 elem.text(elem.text() + contentArray[current++]);
             } else if(current == contentArray.length) {
-                elem.append('<a href="https://www.linkedin.com/company/goldman-sachs/">Goldman Sachs</a>');
+                elem.append('<a href="https://www.linkedin.com/company/amazon/">Amazon</a>');
                 current++;
             }
         }, 100);
